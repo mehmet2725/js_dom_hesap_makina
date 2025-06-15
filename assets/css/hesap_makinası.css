@@ -1,0 +1,31 @@
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+  background-color: lightblue;
+  color: black;
+}
+
+body.darkTheme {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+body.darkTheme .btn {
+  background-color: #333 ;
+  color: #eee ;
+  border-color: #555 ;
+}
+
+body.darkTheme .btn-outline-primary {
+  color: #eee ;
+  border-color: #888 ;
+}
+
+body.darkTheme .btn-outline-primary:hover {
+  background-color: #555 ;
+  color: white ;
+}
+
+body.darkTheme .calculator-box {
+  background-color: #222 ;
+  border: 1px solid #444;
+  color: white;
+}
