@@ -8,7 +8,7 @@ body.darkTheme {
   background-color: #121212;
   color: #f5f5f5;
 }
-body.darkTheme .btn {
+body.darkTheme .btn-outline-primary {
   background-color: #333 ;
   color: #eee ;
   border-color: #555 ;
